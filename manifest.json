@@ -1,0 +1,23 @@
+
+{
+  "manifest_version": 2,
+
+  "name": "Click to Show Hello World!",
+  "description": "Display Hello World to the user on clicking!",
+  "version": "1.0",
+
+  "icons": {
+    "48": "icon.png"
+  },
+
+  "permissions": [
+    "tabs", "<all_urls>"
+  ],
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+	"default_title": "Click Here!"
+  }
+  
+}
