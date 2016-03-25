@@ -10,7 +10,7 @@
     "default_popup": "popup.html"
   },
   "permissions": [
-    "tabs"
-    // Will add more permissions as required by project later on
+	"activeTab",
+	"http://localhost/*"
   ]
 }
