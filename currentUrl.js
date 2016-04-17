@@ -7,16 +7,13 @@ document.addEventListener('DOMContentLoaded', function() {
     
 		var tabId = tab.id;
 		tabUrl = tab.url;
-
-		var xhr = new XMLHttpRequest();
-		//xhr.onreadystatechange = function() {
-		//if (xhr.readyState==4 && xhr.status==200) {
-		//  document.getElementById("disp").innerHTML=xhr.responseText;
-		//	}
-		//} 
-		xhr.open("GET", chrome.extension.getURL('http://localhost/insertdb.php'), true);
-		xhr.send();
-		   
+		
+		window.open("http://localhost/mini/phish.html");
+			document.getElementById('demo').value = "lol";
 	});
   }, false);
 }, false);
+
+
+//document.getElementById("demo").value = "Hello JavaScript!";
+ 
