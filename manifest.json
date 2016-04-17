@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Current Url",
-  "description": "Grab tab's current url",
+  "name": "Check Check",
+  "description": "Check Something",
   "version": "1.0",
 
   "browser_action": {
@@ -11,6 +11,6 @@
   },
   "permissions": [
 	"activeTab",
-	"http://localhost/*"
+	"http://127.0.0.1/*"
   ]
 }
